@@ -1,0 +1,35 @@
+.App{
+  margin-top: 5vh;
+  text-align: center;
+}
+
+Table{
+  text-align: left;
+  thead{
+    text-align: center;
+  }
+  tbody{
+    tr{
+      cursor: pointer;
+      td{
+        vertical-align: middle;
+      }
+      td.center{
+        text-align: center;
+      }
+    }
+    tr.activeUser{
+      td{
+          background: #323539;
+      }
+    }
+  }
+}
+
+Button{
+  cursor: pointer;
+}
+
+.deleteButton{
+  margin-right: 2vh;
+}
